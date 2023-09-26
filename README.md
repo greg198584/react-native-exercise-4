@@ -28,9 +28,9 @@ Dans cet exercice, nous allons implémenter des écrans de connexion (SignIn) et
    Créez un nouveau fichier `SignUpScreen.js` dans votre dossier `screens`. Vous pouvez utiliser le code suivant comme point de départ :
 
 ```jsx
-   import React, { useState } from 'react';
-   import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-   import axios from 'axios';
+import React, { useState } from 'react';
+import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
+import axios from 'axios';
 
 const SignUpScreen = () => {
    const [email, setEmail] = useState('');

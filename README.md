@@ -14,9 +14,14 @@ Dans cet exercice, nous allons implémenter des écrans de connexion (SignIn) et
 
    Vous aurez besoin d'installer `axios` pour effectuer des requêtes HTTP. Utilisez la commande suivante pour l'installer :
 
-    ```bash
-    npm install axios
-    ```
+   ```bash
+   npm install axios
+   ```
+   Le package pour la navigation par pile (Stack.Navigator).
+
+   ```bash
+   npm install @react-navigation/stack
+   ```
 
 2. **Création de l'écran SignUp**
 

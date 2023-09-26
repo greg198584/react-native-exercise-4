@@ -46,7 +46,7 @@ const SignUpScreen = () => {
             return;
          }
 
-        // 
+         // Ici, le code pour envoyer les données à l'API
    };
 
    return (
@@ -122,20 +122,7 @@ const SignInScreen = ({ navigation }) => {
     
     const handleSignIn = async () => {
         if (email && password) {
-            try {
-                const response = await axios.post('http://localhost/auth/signin', {
-                    email,
-                    password,
-                });
-
-                if (response.status === 200 && response.data.token) {
-                    alert('Connexion réussie');
-                    // Stocke le token ici (sera fait dans une future vidéo)
-                    navigation.navigate('Main');
-                }
-            } catch (error) {
-                alert('Erreur de connexion');
-            }
+           // Ici, le code pour envoyer les données à l'API
         } else {
             alert('Veuillez entrer un email et un mot de passe');
         }

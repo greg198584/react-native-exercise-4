@@ -41,12 +41,12 @@ const SignUpScreen = () => {
 
    const handleSignUp = async () => {
       if (email && firstName && lastName && password && confirmPassword) {
-         if (password !== confirmPassword) {
-            alert('Les mots de passe ne correspondent pas');
-            return;
-         }
-
-         // Ici, le code pour envoyer les données à l'API
+          if (password !== confirmPassword) {
+              alert('Les mots de passe ne correspondent pas');
+              return;
+          }
+      }
+      // Ici, le code pour envoyer les données à l'API
    };
 
    return (
